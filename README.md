@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Te estamos redireccionando a ...
 
 You can use the [editor on GitHub](https://github.com/redirecty/redirecty.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
