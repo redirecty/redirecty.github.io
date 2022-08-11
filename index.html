@@ -4,7 +4,7 @@
   
   </head>
   <body>
-    Se debe de haber abierto una ventana que te redirigirá a <p id="action"></p>, sino es así pulsa <a>aquí</a>
+    Se debe de haber abierto una ventana que te redirigirá a <p id="action"></p>, sino es así pulsa <a id="link" href="#">aquí</a>
 <script>
   const queryString = window.location.search;
 console.log(queryString);
@@ -18,7 +18,7 @@ const type = urlParams.get('type')
 console.log(type);
 // tel
 window.location.href = type+":"+where;
-
+document.getElementById("link").href = type+":"+where;
 </script>
 
 </body></html>
