@@ -1,6 +1,10 @@
 <html><head></head><body>Hola Mundo
 Hola Mundo
 <script>
+  const queryString = window.location.search;
+console.log(queryString);
+  const urlParams = new URLSearchParams(queryString);
+
   const product = urlParams.get('url')
 console.log(product);
 // shirt
